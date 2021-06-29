@@ -1,0 +1,227 @@
+/* CSS Document */
+
+/*============================= 初期化 ================================*/
+
+* {
+	margin:0px;
+	padding:0px;
+}
+a {
+	text-decoration: none;
+}
+li {
+	text-decoration: none;
+	list-style-type: none;
+	list-style-position: outside;
+}
+h2 {
+	font-family: 'Tinos', serif;
+	font-size:3em;
+	letter-spacing: 0.07em;
+	font-weight: lighter;
+	color: #FFFFFF;
+}
+h3 {
+	font-size: 1.3em;
+	font-weight: lighter;
+	font-family: 'Sawarabi Mincho', sans-serif;
+}
+p {
+	font-size: 0.9em;
+	font-family: 'Sawarabi Mincho', sans-serif;
+}
+div {
+	box-sizing: border-box;
+}
+body {
+	background-color: #190B07;
+	font-family: 'Sawarabi Mincho', sans-serif;
+}
+html {
+	scroll-behavior: smooth;
+}
+
+a :hover {
+	opacity:0.6;
+}
+
+::-webkit-scrollbar {
+	width: 8px;
+}
+::-webkit-scrollbar-track {
+	background: #000000;
+}
+::-webkit-scrollbar-thumb {
+	background: #0B4C5F;
+	border-radius: 10px;
+}
+
+/*=========================== 画面デザイン ===============================*/
+
+
+/*---------------------header領域---------------------*/
+#header {
+	margin-bottom: 65px;
+}
+#headerin {
+	position: absolute;
+	top: 5%;
+	left: 3%;
+	z-index: 10;
+}
+#fadein {
+	position:relative;
+	padding-bottom: 710px;
+}
+#fadein img {
+	position: absolute;
+	border-bottom-left-radius: 300px 25px;
+	border-bottom-right-radius: 300px 25px;
+}
+#arrow {
+	text-align: center;
+}
+
+
+/*-----------------------main領域----------------------*/
+#main {
+	display: flex;
+  padding: 20px 0px;
+}
+
+
+/*-----------------------navi領域----------------------*/
+#navi {
+	display: flex;
+  align-items: center;
+  justify-content: center;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  width: 25%;
+  height: 100vh;
+  color: #FFFFFF;
+  background-color: #190B07;
+}
+#navi li {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+#navi li:hover {
+  opacity:0.6;
+}
+#navi a {
+	box-sizing: border-box;
+	font-family: 'Tinos', serif;
+	color: #FFFFFF;
+	text-align: center;
+	display: block;
+	font-size: 1.7em;
+	line-height: 2em;
+}
+
+/*----------------------content領域----------------------*/
+#content {
+	width: 90%;
+	padding: 80px;
+  margin-left: 25px;
+	margin-right: 50px;
+	background-image: url(../images/wood.jpg);
+	border-radius: 25px;
+}
+#content h2 {
+	margin-bottom: 20px;
+	text-align: center;
+}
+/*トップページ*/
+#cont1,#cont3,#cont4,#cont5 {
+	padding: 80px;
+	background-color: #FAF0E6;
+	border-radius: 10px;
+	text-align: center;
+}
+#cont1 img {
+	margin-top: 20px;
+	padding: 35px;
+	border-radius: 10px;
+}
+
+/*メニューページ*/
+#cont2 {
+	margin: 0 auto;
+	width: 80%;
+	padding-top: 30px;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-bottom: 10px;
+	background-color: #FAF0E6;
+	border-radius: 10px;
+	margin-bottom: 20px;
+}
+.in {
+	text-align: center;
+	margin-top: 10px;
+}
+/*アバウトページ*/
+#cont3 {
+	margin: 0 auto;
+	width: 850px;
+	padding: 10px;
+	background-color: #FAF0E6;;
+	border-radius: 10px;
+	font-size: 1.2em;
+}
+/*アクセスページ*/
+#table {
+  margin-bottom: 50px;
+  line-height: 1.5;
+}
+.table {
+  border-top: 1px solid #D6CEB4;
+	margin: 0 auto;
+}
+th,td {
+	padding: 20px;
+	margin-bottom: 10px;
+	font-size: 0.9em;
+}
+th {
+	width: 130px;
+}
+td {
+	width: 400px;
+}
+/*予約ページ*/
+
+
+/*-----------------------link領域------------------------*/
+#link {
+	padding: 50px;
+}
+#link ul {
+		display: flex;
+		justify-content: center;
+}
+.sen {
+		margin-left: 35px;
+		margin-right: 35px;
+}
+
+
+
+/*----------------------footer領域-----------------------*/
+#footer {
+  text-align: center;
+}
+#footer p {
+	padding: 10px;
+	color: #FFFFFF;
+}
+
+
+
+/*----------------------return領域-----------------------*/
+#return {
+    position: fixed;
+    right: 30px;
+}
